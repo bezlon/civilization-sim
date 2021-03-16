@@ -26,7 +26,7 @@ print("---------------------")
 print("2 people: Generation 0")
 time.sleep(1)
 while True:
-  for i in range(population):
+  for i in range(round(population/2)):
     children = random.randint(min_children, max_children)
     
     population += children
